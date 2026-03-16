@@ -1,5 +1,5 @@
 git config --global user.name LucasSpricigo
-git config --global usar.email lucasspricigo21@gmail.com
+git config --global user.email lucasspricigo21@gmail.com
 
 -- Criar um projeto React Native Expo
 npx create-expo-app@latest SilvinhaHealthApp --template blank
