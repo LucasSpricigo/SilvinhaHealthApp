@@ -6,7 +6,7 @@ npx create-expo-app@latest SilvinhaHealthApp --template blank
 
 -- Restaurar o projeto (Toda vez que fizer um clone)
 cd SilvinhaHealthApp
-npm i
+'npm i'
 
 --executar o projeto
 npx expo start

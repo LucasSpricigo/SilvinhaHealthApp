@@ -1,28 +1,29 @@
 import {Stack } from 'expo-router';
-import {StatusBar} from 'expo-status-bar ';
-import React from 'react';
+import {StatusBar} from 'expo-status-bar';
 
-export default function _layout() {
+export default function Layout() {
   return (
     <>
     <StatusBar style='dark' />
     <Stack
         screenOptions={{
-            headerStyle: {backgroundColor: "#f9f9f9"},
-            headerTintColor: '#333',
-            headerTitleStyle: {fontWeight: 'bold'}
+          headerStyle: {
+            backgroundColor: "#f9f9f9"
+        },
+        headerTintColor: '#333',
+        headerTitleStyle: {
+          fontWeight: 'bold'
+        },
         }}
     >
         <Stack.Screen
-        name="index"
-        options={{
+          name="index"
+          options={{
             title:"Silvinha Health App",
             headerShown: true
-        }}
+          }}
         />
-    </Stack>
-    
-        
-      </>  
-  )
+      </Stack>
+    </>  
+  );
 }
